@@ -163,14 +163,14 @@ What are the three possible fitted values $\hat{y}$ for this model? Hint: use th
 ::: {.callout-important icon="false" collapse="false" title="Problem 8 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
-
+get_regression_points(hate_mod)
 ```
 
--   Delete this and put your text answer here.
+-   0.191 for high Trump support
 
--   Delete this and put your text answer here.
+-   0.460 for low Trump support
 
--   Delete this and put your text answer here.
+-   0.222 for medium Trump support
 :::
 
 ::: {.callout-note icon="false" title="Problem 9"}
@@ -184,7 +184,7 @@ group_by(trump_support) |>
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 9 Answers"}
--   Delete this and put your text answer here.
+-   The group means are exactly the same as the three fitted values. The fitted values represent the mean hate crime rate for each level of Trump support.
 :::
 
 ## The Regression Equation
